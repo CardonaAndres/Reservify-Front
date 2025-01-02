@@ -17,4 +17,4 @@ export const router = {
 
 }
 
-export const SERVER_URL = 'https://reservify-server-deploy-1.onrender.com'
+export const SERVER_URL = 'https://reservify-server-deploy.onrender.com'
