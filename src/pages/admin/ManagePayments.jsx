@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { AdminNavbar } from '../../components/users/admin/AdminNavbar'
 import { SpinnerLoading } from '../../components/common/SpinnerLoading';
 import { getAllPayments } from '../../API/payments';
-import { errorAlert } from '../../components/common/alerts';
+import { errorAlert } from '../../components/common/Alerts.jsx';
 import { router } from '../../configs/config';
 import { Header } from '../../components/payments/Header';
 import { Pagination } from '../../components/common/Pagination';

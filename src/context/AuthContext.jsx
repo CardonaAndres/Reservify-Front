@@ -1,7 +1,7 @@
 import { createContext, useState, useContext, useEffect } from 'react';
 import { loginRequest, verifySession, 
     registerRequest, logoutRequest, updatePasswordRequest } from '../API/auth.js';
-import { successAlert, errorAlert } from '../components/common/alerts.jsx';
+import { successAlert, errorAlert } from '../components/common/Alerts.jsx';
 import Cookie from 'js-cookie'
 
 // Crear el contexto

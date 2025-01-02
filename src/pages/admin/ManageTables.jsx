@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { SpinnerLoading } from '../../components/common/SpinnerLoading';
 import { getAllTables } from '../../API/tables';
 import { Pagination } from '../../components/common/Pagination';
-import { errorAlert } from '../../components/common/alerts';
+import { errorAlert } from '../../components/common/Alerts.jsx';
 import { router } from '../../configs/config';
 import { TableCard } from '../../components/tables/TableCard';
 import { Header } from '../../components/tables/Header';

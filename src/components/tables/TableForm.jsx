@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { SpinnerLoading } from '../common/SpinnerLoading';
 import { createTable, updateTable } from '../../API/tables';
-import { errorAlert, successAlert } from '../common/Alerts';
+import { errorAlert, successAlert } from '../common/Alerts.jsx';
 
 
 export const TableForm = ({ onClose, tableData }) => {

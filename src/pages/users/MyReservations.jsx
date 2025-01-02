@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Navbar } from '../../components/navbar/Navbar'
 import { SpinnerLoading } from '../../components/common/SpinnerLoading';
 import { useNavigate } from 'react-router-dom';
-import { errorAlert } from '../../components/common/alerts';
+import { errorAlert } from '../../components/common/Alerts.jsx';
 import { router } from '../../configs/config';
 import { getAllMyReservations } from '../../API/reservations';
 import { ReservationCard } from '../../components/reservations/ReservationCard';

@@ -1,7 +1,7 @@
 import { Delete, Payment, Edit } from '@mui/icons-material';
 import { useState } from 'react';
 import { SpinnerLoading } from '../common/SpinnerLoading';
-import { errorAlert, successAlert, warningAlert } from '../common/Alerts';
+import { errorAlert, successAlert, warningAlert } from '../common/Alerts.jsx';
 import { deleteReservation } from '../../API/reservations';
 import { ReservationModal } from './ReservationModal.jsx'
 import { PaymentFormModal } from '../payments/PaymentFormModal';

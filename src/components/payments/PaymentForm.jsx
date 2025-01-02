@@ -3,7 +3,7 @@ import { CreditCard, Phone, Person, Email, AttachMoney } from '@mui/icons-materi
 import { SpinnerLoading } from '../common/SpinnerLoading';
 import { PaymentSumarry } from './PaymentSumarry';
 import { useForm } from 'react-hook-form';
-import { errorAlert, successAlert } from '../common/Alerts';
+import { errorAlert, successAlert } from '../common/Alerts.jsx';
 import { doPayment } from '../../API/payments';
 
 export const PaymentForm = ({ onClose, reservation }) => {

@@ -1,7 +1,7 @@
 import { Message, Send } from '@mui/icons-material';
 import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { errorAlert, successAlert } from '../common/Alerts';
+import { errorAlert, successAlert } from '../common/Alerts.jsx';
 import { SpinnerLoading } from '../common/SpinnerLoading'
 import { sendRequest } from '../../API/request';
 import Cookies from 'js-cookie'

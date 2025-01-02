@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { SpinnerLoading } from '../../components/common/SpinnerLoading';
 import { getFullSchedule } from '../../API/schedule';
 import { router } from '../../configs/config';
-import { errorAlert } from '../../components/common/alerts';
+import { errorAlert } from '../../components/common/Alerts.jsx';
 import { DayCard } from '../../components/schedule/DayCard';
 import { Header } from '../../components/schedule/Header';
 

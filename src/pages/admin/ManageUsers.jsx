@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { getAllUsers } from '../../API/user';
 import { router } from '../../configs/config.js';
 import { useNavigate } from 'react-router-dom';
-import { errorAlert } from '../../components/common/Alerts';
+import { errorAlert } from '../../components/common/Alerts.jsx';
 import { Header } from '../../components/users/manage_users/Header.jsx';
 import { UserCard } from '../../components/users/manage_users/UserCard.jsx';
 import { Pagination } from '../../components/common/Pagination.jsx';

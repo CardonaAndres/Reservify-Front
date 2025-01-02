@@ -2,7 +2,7 @@ import { AccessTime, Edit, Delete } from '@mui/icons-material';
 import { useState } from 'react';
 import { ScheduleModal } from './ScheduleModal';
 import { SpinnerLoading } from '../common/SpinnerLoading';
-import { errorAlert, successAlert, warningAlert } from "../common/Alerts";
+import { errorAlert, successAlert, warningAlert } from "../common/Alerts.jsx";
 import { deleteDay } from '../../API/schedule.js'
 
 export const DayCard = ({schedule_ID = 0, weekday, open_time, close_time, adminMode = false }) => {

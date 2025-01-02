@@ -6,7 +6,7 @@ import { Pagination } from '../../components/common/Pagination';
 import { SpinnerLoading } from '../../components/common/SpinnerLoading';
 import { getAllMyRequests } from '../../API/request';
 import { ServiceRequestCard } from '../../components/requests/ServiceRequestCard';
-import { errorAlert } from '../../components/common/alerts';
+import { errorAlert } from '../../components/common/Alerts.jsx';
 import { router } from '../../configs/config';
 
 export const MyRequests = () => {

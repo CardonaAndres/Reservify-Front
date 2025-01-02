@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import { Pagination } from "../../components/common/Pagination";
 import { SpinnerLoading } from "../../components/common/SpinnerLoading";
 import { getAllRequests } from "../../API/request";
-import { errorAlert } from "../../components/common/alerts";
+import { errorAlert } from "../../components/common/Alerts.jsx";
 import { useNavigate } from "react-router-dom";
 import { router } from "../../configs/config";
 import { ServiceRequestCard } from "../../components/requests/ServiceRequestCard";

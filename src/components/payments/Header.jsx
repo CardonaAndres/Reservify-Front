@@ -4,7 +4,7 @@ import { useState } from "react";
 import { TicketModal } from "./TicketModal";
 import { SpinnerLoading } from "../common/SpinnerLoading";
 import { getPayment } from "../../API/payments";
-import { errorAlert } from "../common/alerts";
+import { errorAlert } from "../common/Alerts.jsx";
 
 export const Header = ({totalTickets, currentPage, totalPages }) => {
 

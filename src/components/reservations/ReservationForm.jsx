@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import { CalendarToday, AccessTime, Restaurant  } from '@mui/icons-material'
 import { useValidateReservation } from '../../hooks/useValidateReservation';
 import { SpinnerLoading } from '../common/SpinnerLoading';
-import { errorAlert, successAlert } from '../common/Alerts';
+import { errorAlert, successAlert } from '../common/Alerts.jsx';
 import { createReservation, updateReservation } from '../../API/reservations.js';
 
 export const ReservationForm = ({ onClose, reservationData, table_ID, user_ID }) => {

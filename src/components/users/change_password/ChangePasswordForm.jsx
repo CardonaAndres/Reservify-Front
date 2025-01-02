@@ -1,6 +1,6 @@
 import { Lock, Key } from '@mui/icons-material';
 import { useForm } from 'react-hook-form';
-import { errorAlert, successAlert } from '../../common/alerts';
+import { errorAlert, successAlert } from '../../common/Alerts.jsx';
 import { useAuth } from '../../../context/AuthContext';
 import { SpinnerLoading } from '../../common/SpinnerLoading';
 

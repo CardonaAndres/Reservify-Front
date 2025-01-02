@@ -2,7 +2,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
 import { SpinnerLoading } from '../common/SpinnerLoading.jsx'
-import { errorAlert } from '../common/Alerts'
+import { errorAlert } from '../common/Alerts.jsx'
 import { TableModal } from "./TableModal.jsx";
 import { getTableByID } from "../../API/tables.js";
 

@@ -6,7 +6,7 @@ import { Pagination } from "../../components/common/Pagination";
 import { ReservationCard } from "../../components/reservations/ReservationCard";
 import { SpinnerLoading } from "../../components/common/SpinnerLoading";
 import { getAllMReservations } from "../../API/reservations";
-import { errorAlert } from "../../components/common/alerts";
+import { errorAlert } from "../../components/common/Alerts.jsx";
 import { router } from "../../configs/config";
 
 export const ManageReservations = () => {

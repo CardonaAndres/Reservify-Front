@@ -3,7 +3,7 @@ import { AccessTime } from '@mui/icons-material';
 import { useForm } from 'react-hook-form';
 import { SpinnerLoading } from '../common/SpinnerLoading';
 import { registerDay, updateDay } from '../../API/schedule';
-import { errorAlert, successAlert } from '../common/Alerts'
+import { errorAlert, successAlert } from '../common/Alerts.jsx'
 
 export const ScheduleForm = ({ dayData = {}, onClose }) => {
   const weekdays = [ 

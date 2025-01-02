@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { RequestModal } from "./RequestModal";
-import { errorAlert } from '../common/Alerts';
+import { errorAlert } from '../common/Alerts.jsx';
 import Cookies from 'js-cookie'
 
 export const Header = ({ adminMode = false, totalRequests, currentPage, totalPages  }) => {

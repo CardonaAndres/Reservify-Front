@@ -1,9 +1,9 @@
 import { MailOutline, LockOutlined, VpnKey } from '@mui/icons-material';
-import { useAuth } from '../../context/AuthContext';
-import { SpinnerLoading } from '../../components/common/SpinnerLoading';
+import { useAuth } from '../../context/AuthContext.jsx';
+import { SpinnerLoading } from '../../components/common/SpinnerLoading.jsx';
 import { useForm } from 'react-hook-form';
 import { Link, useNavigate } from 'react-router-dom';
-import { router } from '../../configs/config';
+import { router } from '../../configs/config.js';
 
 export const UpdatePassword = () => {
 
