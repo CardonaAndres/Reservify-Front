@@ -1,4 +1,4 @@
-FROM node:19-bullseye
+FROM node:19-slim
 
 # Establece el directorio de trabajo en el contenedor
 WORKDIR /app
